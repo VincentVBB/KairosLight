@@ -1,6 +1,6 @@
 #accueil_body
 {
-    background-color: #d4cdd2;
+    background-color: #e0e287;
 }
 .couleurNavbar
 {
@@ -34,12 +34,12 @@
 {
     position: relative;
     z-index: 10;
-    height: 1500px;
+    height: 1000px;
 }
 .parallax
 {
     position: fixed;
-    height: 1500px;
+    height: 1000px;
 
 }
 .keyart_layer
@@ -113,9 +113,10 @@
 }
 #logo
 {
-    background-image: url("/KairosLight/public/KairosTitreGif200Ms.gif");
+    background-image: url("/KairosLight/public/KairosTitreGif80Ms.gif");
 }
-#contenu
+#bastransition
 {
-    background-image: url("/KairosLight/public/CDMSOL.png");
+    background-image: url("/KairosLight/public/transitiontest.png");
+    top: 120px;
 }

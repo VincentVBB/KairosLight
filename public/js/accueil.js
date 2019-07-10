@@ -25,7 +25,7 @@ function castParallax() {
                     rotateX = (top * speed / 340);
                     layer.setAttribute('style', 'transform: rotateX(' + rotateX + 'deg);');
                 }
-                else if (layer.getAttribute('id') === 'batiment4' || layer.getAttribute('id') === 'batiment5' || layer.getAttribute('id') === 'nuage1' ||layer.getAttribute('id') === 'nuage2') {
+                else if (layer.getAttribute('id') === 'batiment4' || layer.getAttribute('id') === 'batiment5' || layer.getAttribute('id') === 'nuage1' || layer.getAttribute('id') === 'nuage2' || layer.getAttribute('id') === 'nuage3' || layer.getAttribute('id') === 'nuage4' || layer.getAttribute('id') === 'batiment1' || layer.getAttribute('id') === 'batiment3' || layer.getAttribute('id') === 'batiment2' || layer.getAttribute('id') === 'bastransition') {
                     layer.setAttribute('style', 'transform: translate3d(0px, ' + yPos + 'px, 0px)');
                 }
                 else{
