@@ -1,0 +1,95 @@
+#accueil_body
+{
+    background-color: black;
+}
+#btnHome1
+{
+    display: block;
+    width: 30%;
+    height: auto;
+}
+#btnHome2
+{
+    display: none;
+    width: 30%;
+    height: auto;
+}
+#btnHome3
+{
+    display: block;
+    width: 30%;
+    height: auto;
+}
+#btnHome4
+{
+    display: none;
+    width: 30%;
+    height: auto;
+}
+.keyart
+{
+    position: relative;
+    z-index: 10;
+    height: 800px;
+}
+.parallax
+{
+    position: fixed;
+    height: 800px;
+}
+.keyart_layer
+{
+    background-position: bottom center;
+    background-size: auto 800px;
+    width: 100%;
+    position: absolute;
+}
+#ciel
+{
+    background-image: url("/KairosLight/public/CDMCiel.png");
+}
+#sol
+{
+    background-image: url("/KairosLight/public/CDMSOL.png");
+}
+
+#immeuble1
+{
+    background-image: url("/KairosLight/public/immeuble1.png");
+}
+#immeuble2
+{
+    background-image: url("/KairosLight/public/immeuble2.png");
+}
+#immeuble3
+{
+    background-image: url("/KairosLight/public/immeuble3.png");
+}
+#immeuble4
+{
+    background-image: url("/KairosLight/public/immeuble4.png");
+}
+#batiment1
+{
+    background-image: url("/KairosLight/public/Bat00001.png");
+}
+#batiment2
+{
+    background-image: url("/KairosLight/public/Bat00002.png");
+}
+#batiment3
+{
+    background-image: url("/KairosLight/public/Bat00003.png");
+}
+#batiment4
+{
+    background-image: url("/KairosLight/public/Bat00004.png");
+}
+#batiment5
+{
+    background-image: url("/KairosLight/public/Bat00005.png");
+}
+#contenu
+{
+    background-image: url("/KairosLight/public/CDMSOL.png");
+}
