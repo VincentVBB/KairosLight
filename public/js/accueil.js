@@ -8,8 +8,7 @@ function displaybutton(id1,id2){
 
 function castParallax() {
 
-    var opThresh = 350;
-    var opFactor = 750;
+
 
     window.addEventListener("scroll", function(event){
 
@@ -26,40 +25,17 @@ function castParallax() {
                     rotateX = (top * speed / 340);
                     layer.setAttribute('style', 'transform: rotateX(' + rotateX + 'deg);');
                 }
-                else if (layer.getAttribute('id') === 'immeuble1' || layer.getAttribute('id') === 'immeuble2' || layer.getAttribute('id') === 'immeuble3' || layer.getAttribute('id') === 'immeuble4' || layer.getAttribute('id') === 'batiment1') {
-                    layer.setAttribute('style', 'transform: translate3d(0px, ' + -yPos + 'px, 0px)');
+                else if (layer.getAttribute('id') === 'batiment4' || layer.getAttribute('id') === 'batiment5' || layer.getAttribute('id') === 'nuage1' ||layer.getAttribute('id') === 'nuage2') {
+                    layer.setAttribute('style', 'transform: translate3d(0px, ' + yPos + 'px, 0px)');
                 }
                 else{
-                    layer.setAttribute('style', 'transform: translate3d(0px, ' + yPos + 'px, 0px)');
+                    layer.setAttribute('style', 'transform: translate3d(0px, ' + -yPos + 'px, 0px)');
                 }
             }
         }
     });
-
-
 }
 
 
-function startSite() {
 
-    var platform = navigator.platform.toLowerCase();
-    var userAgent = navigator.userAgent.toLowerCase();
-
-    if ( platform.indexOf('ipad') != -1  ||  platform.indexOf('iphone') != -1 )
-    {
-        //dispelParallax();
-    }
-
-    else if (platform.indexOf('win32') != -1 || platform.indexOf('linux') != -1)
-    {
-        castParallax();
-    }
-    else
-    {
-        castParallax();
-    }
-
-}
-
-
-document.body.onload = startSite();
+document.body.onload = castParallax();

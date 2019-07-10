@@ -14,26 +14,20 @@
 </head>
 @yield('body')
 <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light couleurNavbar">
         <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <ul class="navbar-nav">
-                <li class="navbar-brand">
-                    <a href="#">
-                        <img onmouseover="displaybutton('btnHome2','btnHome1')" onmouseout="displaybutton('btnHome1','btnHome2')" src="http://localhost:100/KairosLight/public/test1.png" id="btnHome1"/>
-                        <img onmouseover="displaybutton('btnHome2','btnHome1')" onmouseout="displaybutton('btnHome1','btnHome2')" src="http://localhost:100/KairosLight/public/test2.png" id="btnHome2"/>
-                    </a>
-                </li>
-                <li class="navbar-brand">
-                    <a href="#">
-                        <img onmouseover="displaybutton('btnHome4','btnHome3')" onmouseout="displaybutton('btnHome3','btnHome4')" src="http://localhost:100/KairosLight/public/test1.png" id="btnHome3"/>
-                        <img onmouseover="displaybutton('btnHome4','btnHome3')" onmouseout="displaybutton('btnHome3','btnHome4')" src="http://localhost:100/KairosLight/public/test2.png" id="btnHome4"/>
-                    </a>
-                </li>
-            </ul>
+            <a class="navbar-brand" href="#">
+                <img onmouseover="displaybutton('btnHome2','btnHome1')" onmouseout="displaybutton('btnHome1','btnHome2')" src="http://localhost:100/KairosLight/public/test1.png" id="btnHome1"/>
+                <img onmouseover="displaybutton('btnHome2','btnHome1')" onmouseout="displaybutton('btnHome1','btnHome2')" src="http://localhost:100/KairosLight/public/test2.png" id="btnHome2"/>
+            </a>
+            <a href="#">
+                <img onmouseover="displaybutton('btnHome4','btnHome3')" onmouseout="displaybutton('btnHome3','btnHome4')" src="http://localhost:100/KairosLight/public/test1.png" id="btnHome3"/>
+                <img onmouseover="displaybutton('btnHome4','btnHome3')" onmouseout="displaybutton('btnHome3','btnHome4')" src="http://localhost:100/KairosLight/public/test2.png" id="btnHome4"/>
+            </a>
         </div>
     </nav>
 </header>

@@ -1,46 +1,52 @@
 #accueil_body
 {
-    background-color: black;
+    background-color: #d4cdd2;
+}
+.couleurNavbar
+{
+    background-color: #08c5fb;
 }
 #btnHome1
 {
     display: block;
-    width: 30%;
+    width: auto;
     height: auto;
 }
 #btnHome2
 {
     display: none;
-    width: 30%;
+    width: auto;
     height: auto;
 }
 #btnHome3
 {
     display: block;
-    width: 30%;
+    width: auto;
     height: auto;
 }
 #btnHome4
 {
     display: none;
-    width: 30%;
+    width: auto;
     height: auto;
 }
 .keyart
 {
     position: relative;
     z-index: 10;
-    height: 800px;
+    height: 1500px;
 }
 .parallax
 {
     position: fixed;
-    height: 800px;
+    height: 1500px;
+
 }
 .keyart_layer
 {
-    background-position: bottom center;
-    background-size: auto 800px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size : auto 1000px;
     width: 100%;
     position: absolute;
 }
@@ -88,6 +94,26 @@
 #batiment5
 {
     background-image: url("/KairosLight/public/Bat00005.png");
+}
+#nuage1
+{
+    background-image: url("/KairosLight/public/nuage1.png");
+}
+#nuage2
+{
+    background-image: url("/KairosLight/public/nuage2.png");
+}
+#nuage3
+{
+    background-image: url("/KairosLight/public/nuage3.png");
+}
+#nuage4
+{
+    background-image: url("/KairosLight/public/nuage4.png");
+}
+#logo
+{
+    background-image: url("/KairosLight/public/KairosTitreGif200Ms.gif");
 }
 #contenu
 {
