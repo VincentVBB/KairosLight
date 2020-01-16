@@ -1,0 +1,21 @@
+#admin_body
+{
+    background-color : #d4cdd2;
+}
+.titreForm
+{
+    text-align: center;
+}
+/*BUTTON*/
+#accueil1
+{
+    display: block;
+    width: auto;
+    height: auto;
+}
+#accueil2
+{
+    display: none;
+    width: auto;
+    height: auto;
+}

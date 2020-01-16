@@ -1,39 +1,188 @@
-#accueil_body
-{
-    background-color: #e0e287;
+body, html {
+    height: 100%;
+    font-family: Short Stack;
 }
+a:hover {
+    animation: shake 0.8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+
+/*BUTTON*/
+#accueil1
+{
+    display: block;
+    width: auto;
+    height: auto;
+}
+#accueil2
+{
+    display: none;
+    width: auto;
+    height: auto;
+}
+
+#blog1
+{
+    display: block;
+    width: auto;
+    height: auto;
+}
+#blog2
+{
+    display: none;
+    width: auto;
+    height: auto;
+}
+#demo1
+{
+    display: block;
+    width: auto;
+    height: auto;
+}
+#demo2
+{
+    display: none;
+    width: auto;
+    height: auto;
+}
+#galerie1
+{
+    display: block;
+    width: auto;
+    height: auto;
+}
+#galerie2
+{
+    display: none;
+    width: auto;
+    height: auto;
+}
+#presskit1
+{
+    display: block;
+    width: auto;
+    height: auto;
+}
+#presskit2
+{
+    display: none;
+    width: auto;
+    height: auto;
+}
+#phasetest1
+{
+    display: block;
+    width: auto;
+    height: auto;
+}
+#phasetest2
+{
+    display: none;
+    width: auto;
+    height: auto;
+}
+#noel1
+{
+    display: block;
+    width: auto;
+    height: auto;
+}
+#noel2
+{
+    display: none;
+    width: auto;
+    height: auto;
+}
+#connexion1
+{
+    display: block;
+    width: auto;
+    height: auto;
+}
+#connexion2
+{
+    display: none;
+    width: auto;
+    height: auto;
+}
+#admin1
+{
+    display: block;
+    width: auto;
+    height: auto;
+}
+#admin2
+{
+    display: none;
+    width: auto;
+    height: auto;
+}
+#linkDL1
+{
+    display: block;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+#linkDL2
+{
+    display: none;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
 .couleurNavbar
 {
-    background-color: #08c5fb;
+    background-color: #00de73;
 }
-#btnHome1
-{
-    display: block;
-    width: auto;
-    height: auto;
-}
-#btnHome2
+
+
+#mobile
 {
     display: none;
-    width: auto;
-    height: auto;
+    padding-bottom: 5%;
 }
-#btnHome3
+#ordi
 {
     display: block;
-    width: auto;
-    height: auto;
 }
-#btnHome4
-{
-    display: none;
-    width: auto;
-    height: auto;
-}
+
+
+/* ---------------------accueil------------------------- */
+
+
+
+
+#accueil_body
+ {
+    position: relative;
+    background-color: #55e2f9;
+ }
 .keyart
 {
     position: relative;
-    z-index: 10;
+    z-index: 1;
     height: 1000px;
 }
 .parallax
@@ -44,79 +193,708 @@
 }
 .keyart_layer
 {
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size : auto 1000px;
+    background-position: bottom center;
+    background-repeat: repeat-x;
+    background-size : auto 100%;
     width: 100%;
     position: absolute;
 }
 #ciel
 {
-    background-image: url("/KairosLight/public/CDMCiel.png");
+    background-image: url("https://www.entrepot.ovh/~vincent/IMGKairosLight/Parallax/CDMCiel.png");
 }
 #sol
 {
-    background-image: url("/KairosLight/public/CDMSOL.png");
+    background-image: url("https://www.entrepot.ovh/~vincent/IMGKairosLight/Parallax/CDMSOL.png");
 }
-
-#immeuble1
+#immeubles
 {
-    background-image: url("/KairosLight/public/immeuble1.png");
-}
-#immeuble2
-{
-    background-image: url("/KairosLight/public/immeuble2.png");
-}
-#immeuble3
-{
-    background-image: url("/KairosLight/public/immeuble3.png");
-}
-#immeuble4
-{
-    background-image: url("/KairosLight/public/immeuble4.png");
+    background-image: url("https://www.entrepot.ovh/~vincent/IMGKairosLight/Parallax/Immeubles.png");
 }
 #batiment1
 {
-    background-image: url("/KairosLight/public/Bat00001.png");
+    background-image: url("https://www.entrepot.ovh/~vincent/IMGKairosLight/Parallax/Bat00001.png");
 }
 #batiment2
 {
-    background-image: url("/KairosLight/public/Bat00002.png");
+    background-image: url("https://www.entrepot.ovh/~vincent/IMGKairosLight/Parallax/Bat00002.png");
 }
 #batiment3
 {
-    background-image: url("/KairosLight/public/Bat00003.png");
+    background-image: url("https://www.entrepot.ovh/~vincent/IMGKairosLight/Parallax/Bat00003.png");
 }
 #batiment4
 {
-    background-image: url("/KairosLight/public/Bat00004.png");
+    background-image: url("https://www.entrepot.ovh/~vincent/IMGKairosLight/Parallax/Bat00004.png");
 }
 #batiment5
 {
-    background-image: url("/KairosLight/public/Bat00005.png");
+    background-image: url("https://www.entrepot.ovh/~vincent/IMGKairosLight/Parallax/Bat00005.png");
 }
 #nuage1
 {
-    background-image: url("/KairosLight/public/nuage1.png");
+    background-image: url("https://www.entrepot.ovh/~vincent/IMGKairosLight/Parallax/Nuage1.png");
 }
 #nuage2
 {
-    background-image: url("/KairosLight/public/nuage2.png");
+    background-image: url("https://www.entrepot.ovh/~vincent/IMGKairosLight/Parallax/Nuage2.png");
 }
 #nuage3
 {
-    background-image: url("/KairosLight/public/nuage3.png");
+    background-image: url("https://www.entrepot.ovh/~vincent/IMGKairosLight/Parallax/Nuage3.png");
 }
 #nuage4
 {
-    background-image: url("/KairosLight/public/nuage4.png");
+    background-image: url("https://www.entrepot.ovh/~vincent/IMGKairosLight/Parallax/Nuage4.png");
 }
 #logo
 {
-    background-image: url("/KairosLight/public/KairosTitreGif80Ms.gif");
+    background-image: url("https://www.entrepot.ovh/~vincent/IMGKairosLight/Parallax/KairosLightLumiereImmobile.png");
+    background-repeat: no-repeat;
+
 }
 #bastransition
 {
-    background-image: url("/KairosLight/public/transitiontest.png");
+    background-image: url("https://www.entrepot.ovh/~vincent/IMGKairosLight/Parallax/transitiontest.png");
     top: 120px;
+}
+#avion
+{
+    background-image: url("https://www.entrepot.ovh/~vincent/IMGKairosLight/Parallax/GifAvion 1920x1250 80ms.gif");
+    background-repeat: no-repeat;
+    width: 1920px;
+    animation: avion_translation;
+    animation-duration: 13s;
+    animation-timing-function:linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
+@keyframes avion_translation {
+    from {
+        right: -50%;
+    }
+    to {
+        right: 100%;
+    }
+}
+
+
+#VideoTrailer
+{
+    position: absolute;
+    top: 6%;
+    left: 13%;
+    width: 74%;
+    height: 65%;
+}
+
+.transition
+{
+    background-image: url("https://www.entrepot.ovh/~vincent/IMGKairosLight/TransitionEntreElementNuage.png");
+    background-repeat: repeat-x;
+    background-size: 100% auto;
+    padding: 5%;
+    max-height: 57px;
+}
+.main_content
+{
+    position: relative;
+    z-index: 50;
+}
+.textePresentation
+{
+    text-align: center;
+    color: #142636;
+    font-size: 30px;
+}
+
+/* ---------------------inscription------------------------- */
+
+
+#inscription_body
+{
+    background-image: url("https://www.entrepot.ovh/~vincent/IMGKairosLight/Interface/BackgroundInscription.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+
+}
+.imputColorInscription
+{
+    background-color: #a9cdff;
+}
+
+.interface_phasetest
+{
+    border-image: url("https://www.entrepot.ovh/~vincent/IMGKairosLight/Interface/CarreRepeatBleu.png") 20 / 25px / 10px;
+    width: 100%;
+    background:
+            radial-gradient(#9de6eb 15%, transparent 16%) 0 0,
+            radial-gradient(#b8c7fa 15%, transparent 16%) 8px 8px,
+            radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+            radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-size:16px 16px;
+    background-color: #bbdcff;
+    padding: 5%;
+}
+
+.interface_phasetest2
+{
+    border-image: url("https://www.entrepot.ovh/~vincent/IMGKairosLight/Interface/CarreRepeatBleu.png") 20 / 25px / 10px;
+    width: 100%;
+    background:
+            radial-gradient(#9de6eb 15%, transparent 16%) 0 0,
+            radial-gradient(#b8c7fa 15%, transparent 16%) 8px 8px,
+            radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+            radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-size:16px 16px;
+    background-color: #bbdcff;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+
+/* ---------------------connexion------------------------- */
+
+
+#connexion_body
+{
+    background-color: #b1f7d2;
+}
+.cardConnexion
+{
+    background-color: #00f7c2;
+    padding: 2%;
+}
+.imputColorConnexion
+{
+    background-color: rgba(162, 247, 194, 0.79);
+}
+
+
+/*-------------------------DEMO''----------------------*/
+.embed-responsive
+{
+    background-image: url("https://www.entrepot.ovh/~vincent/IMGKairosLight/Interface/interface_demo.png");
+    background-size: 100% auto;
+    padding-bottom: 20%;
+    background-repeat: no-repeat;
+}
+.embed-responsive-item
+{
+    padding-bottom: 21%;
+    padding-top: 4%;
+    padding-left: 6%;
+    padding-right: 7%;
+}
+#demo_body
+{
+    background-color: #e1e3ff;
+}
+/* ---------------------GALERIE------------------------- */
+#galerie_body
+{
+    background-color: #ffb17e;
+}
+
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.5;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 800px;
+}
+
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* ---------------------BLOG------------------------- */
+
+
+#blog_body
+{
+    background-color: #a2e874;
+}
+.interface_blog
+{
+    border-image: url("https://www.entrepot.ovh/~vincent/IMGKairosLight/Interface/CarreRepeat.png") 30 fill / 30px / 20px;
+    width: 100%;
+    background:
+            radial-gradient(#d9ffb7 15%, transparent 16%) 0 0,
+            radial-gradient(#e8fac2 15%, transparent 16%) 8px 8px,
+            radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+            radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-size:16px 16px;
+    background-color: #d5fab4;
+    padding: 1%;
+}
+.interface_blog2
+{
+    border-image: url("https://www.entrepot.ovh/~vincent/IMGKairosLight/Interface/InterfBlog2.png") 30 fill / 30px / 20px;
+    width: 100%;
+    background:
+            radial-gradient(#d3ff00 15%, transparent 16%) 0 0,
+            radial-gradient(#fff3f300 15%, transparent 16%) 8px 8px,
+            radial-gradient(rgba(250, 250, 110, 0.63) 15%, transparent 20%) 0 1px,
+            radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-size:16px 16px;
+    background-color: #ebff8b;
+    padding: 1%;
+}
+.titreBlog
+{
+    color: #006700;
+}
+.imgBlog
+{
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 5%;
+}
+.descBlog
+{
+    text-justify: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 20px;
+}
+.dateBlog
+{
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+#ModalHeadFoot
+{
+    background-color: #85c261;
+}
+#ModalBody
+{
+    background-color: #A2E874;
+}
+#commentaire
+{
+    background-color: #b2ff82;
+}
+#reponse
+{
+    background-color: #c2ff9b;
+}
+#ajout-rep
+{
+    padding: 3%;
+    background-color: #9bed74;
+}
+
+/* ---------------------PRESSKIT------------------------- */
+
+
+#presskit_body
+{
+    background-color: #ffff6d;
+}
+.interface_presskit
+{
+    border-image: url("https://www.entrepot.ovh/~vincent/IMGKairosLight/Interface/CarreRepeatJaune2.png") 20 / 25px / 10px;
+    width: 100%;
+    background:
+            radial-gradient(#ebe466 15%, transparent 16%) 0 0,
+            radial-gradient(#faf28c 15%, transparent 16%) 8px 8px,
+            radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+            radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-size:16px 16px;
+    background-color: #fff565;
+}
+.titrePresskit
+{
+    color: #a66611;
+    text-decoration: underline overline #d7b94e;
+}
+
+.titleEquipe {
+    color: #3ec0b0;
+    text-decoration: underline #009696;
+    text-decoration-style: double;
+}
+#membre_depuis
+{
+    text-decoration: underline #000000;
+}
+.infojeu
+{
+    color: #b25900;
+    margin-left: 10%;
+    font-weight: bold;
+}
+.infoJeutitre
+{
+    color: #824100;
+    text-decoration: underline;
+    margin-left: 5%;
+    font-weight: bold;
+
+}
+#presentationjeu
+{
+    text-align: justify;
+    margin: 3%;
+    font-size: 22px;
+
+}
+#qns
+{
+    font-size: 20px;
+}
+
+
+
+
+/*-------------------------MEDIA QUERIES ----------------------*/
+@media screen and (min-width: 0px) and (max-width: 479px){
+    #demoOrdi
+    {
+        display: none;
+    }
+    #noDemo
+    {
+        display: block;
+    }
+    #ordi{
+        display: none;
+    }
+    #mobile{
+        display: block;
+    }
+    #videoSection
+    {
+        padding-bottom: 60%;
+    }
+    #videoYT{
+        padding-left: 9%;
+    }
+    #linkDL2
+    {
+        max-width: 300px ;
+    }
+    #linkDL1
+    {
+        max-width: 300px ;
+    }
+    .formIMG
+    {
+        position: absolute;
+        top: 9%;
+        left: 14%;
+        width: 72%;
+    }
+    #InterfaceInscription
+    {
+        width: 100%;
+        height: auto;
+    }
+    .descPhase
+    {
+        text-align: center;
+        font-size: 12px;
+    }
+    .textePresentation
+    {
+        font-size: 9px;
+    }
+    #presentationjeu
+    {
+        font-size: 14px;
+    }
+    #qns
+    {
+        font-size: 14px;
+    }
+    .descBlog
+    {
+        font-size: 14px;
+    }
+    #espacement
+    {
+        width: 81%;
+    }
+    #textFooter
+    {
+        font-size: 6px;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 780px){
+    #noDemo
+    {
+        display: block;
+    }
+    #demoOrdi
+    {
+        display: none;
+    }
+    #ordi{
+        display: none;
+    }
+    #mobile{
+        display: block;
+    }
+    #linkDL2
+     {
+         max-width: 600px ;
+     }
+    #linkDL1
+    {
+        max-width: 600px ;
+    }
+    .formIMG
+    {
+        position: absolute;
+        top: 11%;
+        left: 20%;
+        width: 59%;
+    }
+    #InterfaceInscription
+    {
+        padding-left: 10%;
+        width: 90%;
+        height: auto;
+    }
+    .textePresentation
+    {
+        font-size: 14px;
+    }
+    .descPhase
+    {
+        text-align: center;
+        font-size: 16px;
+    }
+    #presentationjeu
+    {
+        font-size: 16px;
+    }
+    #qns
+    {
+        font-size: 16px;
+    }
+    .descBlog
+    {
+        font-size: 16px;
+    }
+    #espacement
+    {
+        width: 85%;
+    }
+}
+@media screen and (min-width: 780px) and (max-width: 1100px){
+    #noDemo
+    {
+        display: block;
+    }
+    #demoOrdi
+    {
+        display: none;
+    }
+    #ordi{
+        display: none;
+    }
+    #mobile{
+        display: block;
+    }
+    #linkDL2
+    {
+        max-width: 900px ;
+    }
+    #linkDL1
+    {
+        max-width: 900px ;
+    }
+    .formIMG
+    {
+        position: absolute;
+        top: 11%;
+        left: 34%;
+        width: 31%;
+    }
+    #InterfaceInscription
+    {
+        padding-left: 30%;
+        width: 70%;
+        height: auto;
+    }
+    .textePresentation
+    {
+        font-size: 18px;
+    }
+    .descPhase
+    {
+        text-align: center;
+        font-size: 18px;
+    }
+    #presentationjeu
+    {
+        font-size: 18px;
+    }
+    #qns
+    {
+        font-size: 17px;
+    }
+    .descBlog
+    {
+        font-size: 18px;
+    }
+    #espacement
+    {
+        width: 88%;
+    }
+}
+@media screen and (min-width: 1100px){
+    #noDemo
+    {
+        display: none;
+    }
+    #demoOrdi
+    {
+        display: block;
+    }
+    .descPhase
+    {
+        text-align: center;
+    }
+
+    #ordi{
+        display: block;
+    }
+    #mobile{
+        display: none;
+    }
+    #linkDL2
+    {
+        max-width: 2000px ;
+    }
+    #linkDL1
+    {
+        max-width: 2000px ;
+    }
+    .formIMG
+    {
+        position: absolute;
+        top: 11%;
+        left: 37%;
+        width: 26%;
+    }
+    #InterfaceInscription
+    {
+        padding-left: 34%;
+        width: 67%;
+        height: auto;
+    }
+    .textePresentation
+    {
+        font-size: 20px;
+    }
+    #presentationjeu
+    {
+        font-size: 22px;
+    }
+    #qns
+    {
+        font-size: 20px;
+    }
+    .descBlog
+    {
+        font-size: 20px;
+    }
+    #espacement
+    {
+        width: 90%;
+    }
+}
+
+#page-content {
+    flex: 1 0 auto;
+}
+
+#sticky-footer {
+    flex-shrink: unset;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-instagram {
+     background: #125688;
+     color: white;
+ }
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa {
+    padding: 1%;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
